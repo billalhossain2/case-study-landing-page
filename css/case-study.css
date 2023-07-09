@@ -1,0 +1,10 @@
+@font-face {
+  font-family: grotestFont;
+  src: url("../fonts/FoundersGrotesk-light.otf");
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+
