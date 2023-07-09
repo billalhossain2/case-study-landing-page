@@ -3,8 +3,145 @@
   src: url("../fonts/FoundersGrotesk-light.otf");
 }
 
-body {
-  font-family: "Inter", sans-serif;
+/* Reset browser default styles  */
+* {
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  font-family: grotestFont;
+}
 
+/* nav related styles  */
+nav {
+  font-family: Inter;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 37px 0 40px;
+  margin-top: 25px;
+  margin-bottom: 90px;
+}
+
+.brand-name {
+  color: #2a2a2a;
+  font-size: 17.109px;
+  font-weight: 400;
+  line-height: 21.109px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 38px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #2a2a2a;
+  font-size: 16.19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.19px;
+  text-transform: uppercase;
+}
+
+/* intro related style  */
+.intro {
+  padding: 0 20px;
+}
+.intro .intro-title {
+  color: #2a2a2a;
+  font-family: Founders Grotesk;
+  font-size: 121.33px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 107.464px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.intro-small-title {
+  color: #2a2a2a;
+  font-family: Founders Grotesk;
+  font-size: 17.19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.19px;
+  text-transform: uppercase;
+}
+
+/* case study related styles  */
+.case-study-list {
+  margin: 50px 0 135px 0;
+  display: flex;
+}
+
+.case-study-card {
+  max-width: 430px;
+  padding: 5px;
+}
+
+.case-study-card img {
+  width: 100%;
+}
+
+.case-study-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* about related style  */
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.about .about-left-description {
+  color: #2a2a2a;
+  font-family: Founders Grotesk;
+  font-size: 20.87px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.866px;
+  text-transform: uppercase;
+  max-width: 600px;
+}
+.about .about-right-description {
+  color: #2a2a2a;
+  font-family: Founders Grotesk;
+  font-size: 20.11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25.331px;
+  max-width: 600px;
+}
+
+.about-btn {
+  color: #f0f0f0;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  border-radius: 9px;
+  background: #000;
+  padding: 10px 19px 10px 15px;
+  cursor: pointer;
+  margin-top: 38px;
+}
+
+/* video related styles  */
+.video-image-container{
+    width: 100%;
+    height: 1079px;
+}
+
+.video-image-container img{
+    width: 100%;
+    height: 100%;
+}
